@@ -32,6 +32,7 @@ var questionsList = [{
   answer: "no"
 }, {
   question: "who killed daenerys ? ",
+  array : ['Mumbai', 'Hyderabad', 'Guragon', 'Bangalore'],
   answer: "Jon Snow"
 }, {
   question: "Is Cersei a 'good' or 'evil' queen ? ",
