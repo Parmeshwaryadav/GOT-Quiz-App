@@ -28,15 +28,20 @@ console.log(chalk.yellowBright('\n------------------\n'));
 };
 //questionList
 var questionsList = [{
-  question: "Is Jon Snow a dragon ? yes/no ! ",
+  question: "Is Jon Snow a dragon ? yes/no  ",
   answer: "no"
 }, {
   question: "who killed daenerys ? ",
-  array : ['Mumbai', 'Hyderabad', 'Guragon', 'Bangalore'],
   answer: "Jon Snow"
 }, {
   question: "Is Cersei a 'good' or 'evil' queen ? ",
   answer: "evil"
+}, {
+  question: "Is the wall real in Game of Thrones ? yes/no ",
+  answer: "no"
+}, {
+  question: "Who killed the night King in Game of Thrones ? ",
+  answer: "Arya"
 }];
 //Loop
 for(var i = 0;i<questionsList.length;i++){
@@ -50,7 +55,7 @@ highScore = [{
   userName: "Mohit",
   point: 2,
 }, {
-  userName: "Zeno",
+  userName: "chotu",
   point: 4,
 }]
 console.log(chalk.bgYellow(" High Score "));
@@ -63,8 +68,6 @@ for (let i = 1; i < highScore.length; ++i) {
 }
 if(score>max){
     console.log(chalk.inverse.bold("\n Congrats You beaten a High Score \n"));
-}
-else{
+} else{
     console.log(chalk.inverse.bold("\n Better Luck Next Time \n"));
-
-}
+};
