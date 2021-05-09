@@ -7,7 +7,7 @@ console.log(chalk.green.bold("Welcome "+ userName + " to GOT Quiz!!"));
 
 console.log('\n');
 console.log(chalk.bgRedBright('Rules :'));
-console.log(chalk.bgBlueBright.bold('1.',userName + ', There are 5 Questions on G O T Web show. '));
+console.log(chalk.bgBlueBright.bold('1.',userName + ', There are 5 Questions on "Game of thrones" Web show. '));
 console.log('2. You will get 2 points on each Right Answer & -1 if wrong. ');
 console.log(chalk.green.bold("Let The Quiz Begins !! "));
 console.log('\n');
